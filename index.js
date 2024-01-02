@@ -22,3 +22,4 @@ const db = require("./queries");
 
 app.get("/users/all", db.getUsers);
 app.get("/users/register/:register", db.getUserByRegister);
+app.get("/products/all", db.getProducts);
