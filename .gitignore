@@ -4,3 +4,4 @@ test.js
 .env
 node_modules
 main.js
+env.json
